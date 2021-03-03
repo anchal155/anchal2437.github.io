@@ -1,0 +1,555 @@
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+  /* Navigation bar css */
+.navbar {
+  transition: all 0.4s;
+}
+
+.navbar .nav-link {
+  color:rgb(145, 139, 139);
+  font-size:12px;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color:black;
+  text-decoration: none;
+  font-size:12px;
+}
+
+.navbar .navbar-brand {
+  color: #000000;
+  font-size:12px;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+  background:white;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+  color: #555;
+  font-size:12px;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+  color: #555;
+  text-decoration: none;
+  font-size:12px;
+}
+
+.navbar.active .navbar-brand {
+  color: #555;
+  font-size:12px;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+  .navbar {
+      background: white;
+  }
+
+  .navbar .navbar-brand, .navbar .nav-link {
+      color: #555;
+      font-size:20px;
+  }
+}
+
+/*stying in large port devices */
+@media (min-width: 992px){
+
+  .navbar .navbar-brand, .navbar .nav-link {
+    color: #555;
+    font-size:15px;
+}
+  .header .header-content {
+      padding-top: 9.5rem !important;
+      margin-left: 1rem;
+  }
+  .image-container {
+    margin-left:rem;
+    margin-top:-10vw;
+
+  }
+  .text-container {
+     margin-left:-2rem;
+  }
+
+    .img-fluid {
+      max-width: 500px;
+      height:400px;
+    }
+  
+    .text1 {
+      margin-left:-2rem;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+ }
+
+/*styling in small port devices */
+@media (max-width: 600px){
+  .header .header-content {
+      padding-top: 9.5rem !important;
+      margin-top:5%;
+
+  }
+ 
+  .section-container {
+    padding-top:2rem !important;
+    margin-left:2rem;
+
+    
+  }
+
+  .heading-container{
+    padding-top:30%;
+    min-height:500px;
+    width:300px;
+  }
+
+  body{
+  overflow-x: hidden;
+  }
+
+  .mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:1090px;
+    padding-top:3%;
+    margin-bottom:2%;
+    margin-left:3%;
+  }
+ 
+  .myclass{
+    text-align: left;
+    margin-right:-4rem;
+    font-size: 20px;
+  }
+  
+  .text4 {
+    font-size:15px;
+  }
+
+  .img-responsive {
+    height:32px;
+    width:32px;
+  }
+
+  .gmap_canvas {
+    overflow:hidden;background:none!important;
+    height:500px;width:50px;
+    
+  }
+
+  .p-large{
+    margin-left:1rem!important;
+  }
+
+  .mycontainer1-container-fluid {
+    min-height:500px;
+  }
+
+  #services {
+    margin-left:1rem!important;
+  }
+  
+  .page-header{
+    padding-top:9.5rem!important;
+  }
+
+  #image1{
+    max-width:300px;
+    margin-left: -7rem;
+  }
+
+  #image2{
+    max-width:300px;
+    margin-left:-7rem;
+  }
+
+  .page1-header{
+    padding-top: 9.5rem!important;
+    width:400px;
+    margin-left:-5rem;
+  }
+
+  .title {
+    margin-left: 2rem;
+  }
+
+  .page2-header{
+    max-width: 400px;
+    margin-bottom:1rem!important;
+  }
+  
+
+}
+
+
+.p-large {
+  color:grey; text-decoration: none;
+  font-size:20px;
+  font-weight:bold;
+  font-family:'sans-serif';
+  text-align:center;
+  margin-left:-4rem;
+  padding-top:1%;
+}
+
+.container .row .col-lg-6 {
+      margin-top:5%;
+}
+
+
+.container-fluid .row .col-lg-12 {
+     margin-top :3%;
+}
+
+
+ .section1-container-fluid {
+   margin-left: 3rem;
+ }
+ 
+ ul#serviceid li{
+  padding-top:3%;
+  list-style-type: none;
+  text-align: inherit;
+  font-size: 20px;
+  color: darkorange;
+  font-weight: bold;
+ }
+
+ 
+
+.header-container {
+   text-align:center;
+   padding-top:8%;
+   font-family:sans-serif
+}
+
+
+.myclass {
+   padding-top:5%;
+}
+
+.text1 {
+  font-size:25px;
+  text-align:center;
+  
+ 
+
+}
+
+.text2 {
+  background-color:black;
+  color: white;
+  margin-left:0rem;
+  height:80px;
+}
+
+.phone {
+  padding-top:7%;
+  font-size:15px;
+}
+
+.para{
+  padding-left:-2rem;
+}
+
+.phone-text{
+  padding-top:3%;
+}
+
+/* FontAwesome for working BootSnippet :> */
+
+#row2{
+   margin-top:2%;
+}
+
+.card-image-top {
+  width:100%;
+
+  
+}
+
+.card-title {
+  text-align:center;
+}
+
+.section-title{
+  padding-top:5%;
+  font-size:25px;
+  text-align:center;
+
+}
+
+.container .row .col-lg-12 {
+    padding-top:3%;
+}
+
+.card-image-top:hover{
+    opacity:0.2;
+}
+
+#services {
+  width:90%!important;
+  margin-left:4rem;
+}
+
+.mycontainer{
+  padding-top:10%;
+  text-align:center;
+  
+}
+
+.mycontainer1-container-fluid {
+        background-color: lightgrey;
+        padding-top:2%;
+        height: 380px;
+}
+
+
+.header {
+  font-size:25px;
+  font-family:'sans-serif'
+}
+
+footer {
+  padding-top:3%;
+  margin-bottom:-5rem;
+  min-width:100% !important;
+
+  
+}
+
+
+.widget-title{
+  font-size:16px;
+}
+
+.thumb-content{
+  font-size:16px;
+}
+
+
+.float {
+   position: fixed;
+}
+
+.heading-container {
+    Color: white;
+    background-color: grey;
+    margin-top:10% !important;
+    height: 200px;  
+}
+
+.text3 {
+  font-weight: bold;
+}
+
+.myclass {
+  padding-top:3%; 
+}
+
+.contact-container {
+    text-align:left;
+    color:grey;
+    font-size:25px;
+}
+
+.head {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.email-head {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.address-head {
+  font-size: 25px;
+  text-decoration: underline;
+  
+}
+
+.b1 ,.b3 {
+    font-size:25px;
+}
+
+.line1 , .line2 {
+   font-size:25px;
+}
+
+.button {
+  padding-top:3%;
+}
+
+#form-container {
+  background-color: lightgrey;
+  height:700px;
+}
+
+.main-heading {
+  text-decoration: underline;
+}
+
+.form-group {
+   margin-top:8%!important;
+}
+
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:500px;
+  width:1090px;
+  padding-top:3%;
+  margin-bottom:2%;
+  margin-left:3%;
+}
+
+.gmap_canvas {
+  overflow:hidden;background:none!important;
+  height:500px;width:1090px;
+  
+}
+
+.location {
+  font-size:25px;
+  font-weight:bold;
+  text-decoration: underline;
+  color:grey;
+  margin-left:1%;
+}
+
+
+
+.container {
+  padding-top: 3%;
+}
+
+.head1 {
+  font-size:30px;
+  text-decoration:underline;
+}
+
+.para1,.para4 {
+  font-size:25px;
+  font-weight: bold;
+  color: grey;
+  padding-top: 1%;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.image1-container {
+    padding-top:3%;
+    margin-left:6rem;
+    height:60x;
+}
+
+.para-container {
+  font-size:20px;
+  color:grey;
+  text-align: left;
+}
+
+.heading6{
+  font-weight: bold;
+  color: black;
+  font-size: px;
+  text-align:center;
+  text-decoration: underline;
+  font-size:30px;
+
+}
+
+.head3 {
+  font-size:20px;
+  text-align: center;
+}
+
+.text3 {
+  font-size:30px;
+  text-align: center;
+  text-decoration: underline;
+  padding-top:5%;
+}
+
+.text4 {
+  font-size:25px;
+}
+
+.para3, .para2{
+  color:grey;
+  font-size:25px;
+  text-align:center;
+}
+
+.imagecontainer-container-fluid {
+  margin-bottom: 3%;
+}
+
+.page-header {
+  background-image: url("/images/backgroundimage.jpg");
+  padding-top: 15%;
+  text-align: center;
+  color: #f8f8f8;background-size:cover;min-height:100vh;
+
+}
+
+.page1-header{
+  background-image: url("/images/system.jpg");
+  padding-top: 15%;
+  text-align: center;
+ background-size:cover;min-height:100vh;
+ color:white;
+
+}
+
+#serviceid1 {
+  background-color: grey;
+  color:white;
+margin-top:5%;
+height: 250px;
+}
+
+.heading7, .heading8, .heading9, .heading10,.heading11{
+  padding-top:5%;
+  Font-size:30px;
+  
+}
+
+.para5 , .para6, .para7, .para8{
+  font-size:25px;
+  
+}
+
+.para6, .para7, .para8 {
+  color:grey;
+}
+
+
+.heading8, .heading9, .heading10, .heading11{
+  text-decoration:underline;
+}
+
+.page2-header{
+  background-image: url("/images/bg2.png");
+  padding-top: 8%;
+ background-size:cover;min-height:100vh;
+ color:white;
+ min-height:700px;
+ margin-bottom: -2.5rem;
+
+}
+

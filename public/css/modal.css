@@ -1,0 +1,15 @@
+/* modal styling */
+
+.modal-title {
+    font-size:30px;
+    text-align:center;
+}
+
+#desc{
+    font-size:25px;
+    color:grey;
+}
+
+.modal-footer{
+    text-align:center;
+}
